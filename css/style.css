@@ -1,0 +1,204 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: 'Proxima';
+  src: url(../fonts/ProximaNova-Regular.otf);
+}
+@font-face{
+  font-family: 'Proxima Bold';
+  src: url(../fonts/ProximaNova-Bold.otf);
+}
+body{
+  background-color: #EEE;
+}
+#header{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.logo{
+  width: 50%;
+  justify-items: center;
+  text-align: center;
+}
+.logo .img-logo{
+  justify-items: center;
+  text-align: center;
+  width: 50%;
+  height: 350px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: 120px;
+}
+.contact{
+  width: 40%;
+  height: 650px;
+  margin-top: 20px;
+  background-color: gray;
+  border-radius: 0 70px 0 0;
+}
+.contact .con-form{
+  background-color: gray;
+  padding: 20px 0 20px 55px;
+}
+.con-form .inputf, .con-form .inputarea, .con-form .inpute, .con-form .inputp, .con-form .inpute{
+  font-size: 18px;
+  width: 80%;
+  height: 80px;
+  margin: 10px 0 10px 10px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #CCC;
+  font-weight: bold;
+  justify-content: center;
+}
+.con-form .inputarea{
+  color: #716868;
+  height: 130px;
+  resize: none;
+}
+.con-form .inputf:focus, .con-form .inputarea:focus, .con-form .inpute:focus, .con-form .inputp:focus, .con-form .inpute:focus{
+  outline: 0;
+  border: 1px solid #000;
+}
+.con-form .btn{
+  font-size: 20px;
+  width: 80%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #41658E;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  font-weight: bold;
+  margin-left: 10px;
+  justify-content: center;
+}
+.con-form .btn:hover{
+  cursor: pointer;
+  border: 1px solid #41658E;
+  background-color: #CCC;
+  color: #41658E;
+}
+.con-form .btn:focus{
+  outline: 0;
+  border: 1px solid #41658E;
+}
+#main .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+#main .box{
+  margin-bottom: 100px;
+}
+.side-title{
+  border-radius: 0 70px 0 0;
+  background-color: orange;
+}
+.div-head{
+  font-family: 'Proxima Bold';
+  text-transform: capitalize;
+  line-height: 10px;
+  color: rgb(233, 100, 0);
+  font-size: 35px;
+  padding: 30px;
+}
+.about, .programs, .contact-info, .images, .statistics, .videos{
+  margin: 15px;
+  border-radius: 0 70px 0 0;
+}
+.about{
+  width: 65%;
+  height: 350px;
+  color: #0f2d69;
+  background-color: rgb(211, 214, 196);
+}
+.about .parg{
+  padding: 20px;
+  line-height: 2;
+  text-align: justify;
+  font-size: 20px;
+}
+.programs{
+  width: 30%;
+  height: 350px;
+  background-color: #3366CC;
+  color: #F5F5F5;
+}
+.programs .sections{
+  line-height: 1.7;
+  font-size: 20px;
+  padding: 10px 0 10px 20px;
+}
+.contact-info{
+  width: 30%;
+  height: 350px;
+  background-color: #3366CC;
+  color: #F5F5F5;
+}
+.contact-info .icons{
+  line-height: 2.3;
+  font-size: 20px;
+  padding: 30px 0 10px 30px;
+}
+.contact-info .icons .fa-map-marker, .fa-phone, .fa-envelope, .fa-globe{
+  font-size: 25px;
+  color: #F5F5F5;
+  margin-right: 5px;
+}
+.images{
+  justify-content: center;
+  width: 65%;
+  height: 350px;
+  background-color: rgb(211, 214, 196);
+}
+.images .photo{
+  width: 24.6%;
+  height: 280px;
+}
+.statistics{
+  background-color: rgb(211, 214, 196);
+  width: 65%;
+  height: 350px;
+}
+.statistics-name .stat-num{
+  color: #0F2D69;
+  padding: 50px 0 0 40px;
+  line-height: 1;
+  font-size: 25px;
+}
+.statistics-name .num{
+  font-weight: bold;
+  color: rgb(16, 55, 182);
+}
+.videos{
+  width: 30%;
+  height: 350px;
+  background-color: rgb(211, 214, 196);
+  border-radius: 0 70px 0 0;
+}
+.videos .video{
+  margin-top: -61px;
+  width: 100%;
+  height: 343px;
+}
+.description-video .video{
+  border-radius: 8px;
+}
+#footer .map{
+  width: 100%;
+  height: 500px;
+}
+#footer .maps{
+  width: 100%;
+  height: 500px;
+}

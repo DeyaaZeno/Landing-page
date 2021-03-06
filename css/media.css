@@ -1,0 +1,372 @@
+@media (max-width: 575.98px){
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo .img-logo{
+        width: 100%;
+        height: 230px;
+        margin-bottom: 200px;
+        order: 1;
+    }
+    .contact{
+        width: 85%;
+        height: 400px;
+        margin-bottom: 110px;
+        order: 2;
+    }
+    .div-head{
+        font-size: 25px;
+    }
+    .con-form .inputf, .con-form .inputarea, .con-form .inpute, .con-form .inputp, .con-form .inpute{
+        font-size: 13px;
+        width: 80%;
+        height: 50px;
+        padding: 15px 20px;
+    }
+    .con-form .btn{
+        font-size: 15px;
+        width: 80%;
+        height: 40px;
+    }
+    #main .container{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        margin-bottom: 100px;
+    }
+    .about{
+        width: 85%;
+        height: 550px;
+        margin-bottom: 110px;
+        order: 3;
+    }
+    .about .parg{
+        font-size: 17px;
+    }
+    .programs{
+        width: 85%;
+        height: 250px;
+        margin-bottom: 110px;
+        order: 4;
+    }
+    .programs .sections{
+        font-size: 17px;
+        padding: 10px 0 10px 35px;
+    }
+    .contact-info{
+        width: 85%;
+        height: 250px;
+        margin-bottom: 110px;
+        order: 5;
+    }
+    .contact-info .icons{
+        line-height: 2.3;
+        font-size: 15px;
+        padding: 10px 0 10px 30px;
+    }
+    .images{
+        width: 85%;
+        height: 350px;
+        margin-bottom: 110px;
+        order: 6;
+    }
+    .images .photo{
+        width: 49.4%;
+        height: 140px;
+    }
+    .statistics{
+        width: 85%;
+        height: 400px;
+        order: 7;
+    }
+    .statistics-name .stat-num{
+        padding: 40px 0 0 20px;
+        line-height: 1.5;
+        font-size: 17px;
+    }
+    .videos{
+        width: 85%;
+        height: 350px;
+        order: 8;
+    }
+    .videos .video{
+        width: 100%;
+        height: 365px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo .img-logo{
+        width: 70%;
+        height: 250px;  
+        margin-bottom: 200px;
+    }
+    .div-head{
+        font-size: 30px;
+    }
+    .contact{
+        width: 60%;
+        height: 400px;
+        margin-bottom: 250px;
+    }
+    .con-form .inputf, .con-form .inputarea, .con-form .inpute, .con-form .inputp, .con-form .inpute{
+        font-size: 13px;
+        width: 70%;
+        height: 60px;
+        padding: 15px 20px;
+    }
+    .con-form .btn{
+        font-size: 16px;
+        width: 70%;
+        height: 35px;
+    }
+    #main .container{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        margin-bottom: 100px;
+    }
+    .about{
+        width: 60%;
+        height: 800px;
+        margin-bottom: 110px;
+    }
+    .about .parg{
+        font-size: 23px;
+    }
+    .programs{
+        width: 60%;
+        height: 250px;
+        margin-bottom: 110px;
+    }
+    .programs .sections{
+        font-size: 18px;
+    }
+    .contact-info{
+        width: 60%;
+        height: 350px;
+        margin-bottom: 110px;
+    }
+    .contact-info .icons{
+        line-height: 2.8;
+        font-size: 18px;
+    }
+    .images{
+        width: 60%;
+        height: 350px;
+        margin-bottom: 110px;
+    }
+    .images .photo{
+        width: 49.4%;
+        height: 140px;
+    }
+    .statistics{
+        width: 60%;
+        height: 350px;
+    }
+    .statistics-name .stat-num{
+        padding: 40px 0 0 17px;
+        line-height: 1;
+        font-size: 17px;
+    }
+    .videos{
+        width: 60%;
+        height: 350px;
+    }
+    .videos .video{
+        width: 100%;
+        height: 365px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo .img-logo{
+        width: 60%;
+        height: 250px;  
+        margin-bottom: 200px;
+    }
+    .div-head{
+        font-size: 40px;
+    }
+    .contact{
+        width: 70%;
+        height: 400px;
+        margin-bottom: 250px;
+    }
+    .con-form .inputf, .con-form .inputarea, .con-form .inpute, .con-form .inputp, .con-form .inpute{
+        font-size: 20px;
+        width: 85%;
+        height: 70px;
+        padding: 15px 20px;
+    }
+    .con-form .btn{
+        font-size: 23px;
+        width: 85%;
+        height: 45px;
+    }
+    #main .container{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        margin-bottom: 100px;
+    }
+    .about{
+        width: 70%;
+        height: 450px;
+        margin-bottom: 110px;
+    }
+    .about .parg{
+        font-size: 22px;
+    }
+    .programs{
+        width: 70%;
+        height: 350px;
+        margin-bottom: 110px;
+    }
+    .programs .sections{
+        font-size: 25px;
+        padding: 20px 0 10px 25px;
+    }
+    .contact-info{
+        width: 70%;
+        height: 350px;
+        margin-bottom: 110px;
+    }
+    .contact-info .icons{
+        font-size: 20px;
+        padding: 20px 0 10px 30px;
+    }
+    .images{
+        width: 70%;
+        height: 350px;
+        margin-bottom: 110px;
+    }
+    .images .photo{
+        width: 49.6%;
+        height: 140px;
+    }
+    .statistics{
+        width: 70%;
+        height: 350px;
+    }
+    .statistics-name .stat-num{
+        padding: 40px 0 0 17px;
+        font-size: 21px;
+    }
+    .videos{
+        width: 70%;
+        height: 350px;
+    }
+    .videos .video{
+        margin-top: -7px;
+        width: 100%;
+        height: 365px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo .img-logo{
+        width: 65%;
+        height: 250px;  
+        margin-bottom: 200px;
+    }
+    .div-head{
+        font-size: 40px;
+    }
+    .contact{
+        width: 70%;
+        height: 400px;
+        margin-bottom: 250px;
+    }
+    .con-form .inputf, .con-form .inputarea, .con-form .inpute, .con-form .inputp, .con-form .inpute{
+        font-size: 20px;
+        width: 80%;
+        height: 60px;
+        padding: 15px 20px;
+    }
+    .con-form .btn{
+        font-size: 20px;
+        width: 80%;
+        height: 50px;
+    }
+    #main .container{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        margin-bottom: 100px;
+    }
+    .about{
+        width: 70%;
+        height: 650px;
+        margin-bottom: 110px;
+    }
+    .about .parg{
+        font-size: 25px;
+    }
+    .programs{
+        width: 70%;
+        height: 350px;
+        margin-bottom: 110px;
+    }
+    .programs .sections{
+        font-size: 23px;
+        padding: 20px 0 10px 25px;
+    }
+    .contact-info{
+        width: 70%;
+        height: 350px;
+        margin-bottom: 110px;
+    }
+    .contact-info .icons{
+        font-size: 20px;
+        padding: 20px 0 10px 30px;
+    }
+    .images{
+        width: 70%;
+        height: 350px;
+        margin-bottom: 110px;
+    }
+    .images .photo{
+        width: 49.7%;
+        height: 180px;
+    }
+    .statistics{
+        width: 70%;
+        height: 350px;
+    }
+    .statistics-name .stat-num{
+        padding: 40px 0 0 17px;
+        font-size: 23px;
+    }
+    .videos{
+        width: 70%;
+        height: 430px;
+    }
+    .videos .video{
+        margin-top: 1px;
+        width: 100%;
+        height: 365px;
+    }
+}
